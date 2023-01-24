@@ -1,8 +1,29 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-a {
-  color: #00B7FF;
+#bg {
+  width: 100%;
+  height: 100vh;
+  filter: saturate(20%) blur(3px);
+  /* filter: blur(3px); */
+  position:fixed;
+  z-index: -1;
 }
+
+
+nav, footer {
+  background-color: rgba(66, 39, 47, 0.551);
+  height: 5rem;
+}
+
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
