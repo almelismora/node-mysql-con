@@ -7,29 +7,29 @@
   
   </head>
   <body>
-    <!-- <img src="https://www.teahub.io/photos/full/321-3215948_hd-wallpapers-for-news.jpg" id="bg"> -->
-    <img src="https://png.pngtree.com/thumb_back/fh260/background/20211014/pngtree-news-tv-broadcast-technology-background-image_909022.png" id="bg">
 
-    <nav class="navbar">
+    <%- include('partials/header.ejs') %> 
+    <!-- <img src="https://www.teahub.io/photos/full/321-3215948_hd-wallpapers-for-news.jpg" id="bg"> -->
+    <!-- <img src="https://png.pngtree.com/thumb_back/fh260/background/20211014/pngtree-news-tv-broadcast-technology-background-image_909022.png" id="bg"> -->
+
+    <!-- <nav class="navbar">
       <a href="#" class="navbar-brand mx-auto text-info font-weight-bold">NEWS</a>
-    </nav>
+    </nav> -->
 
     <div id="index">
       
       <div class="d-flex justify-content-center flex-column align-items-center mt-5 pt-5">
         <h1 class="h1 text-white font-weight-bold">Bienvenido a las <%= title %></h1>
         <p class="text-white m-4 p-5 mb-5 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates perferendis provident obcaecati nulla tempora eaque exercitationem beatae rerum iusto, aliquid possimus ipsam veniam modi quas voluptatibus perspiciatis expedita incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam quos, illo nam rem deleniti sit neque eveniet unde!</p>
-        <button class="btn btn-outline-dark rounded p-0 mt-5"><a href="/news" class="text-white nav-link h5 pb-1">Noticias</a></button>
+        <button class="btn btn-primary rounded p-0 mt-5"><a href="/news" class="text-white nav-link h5 pb-1">Noticias</a></button>
       </div>      
   
       <!-- <div class="float-right"><button class="btn btn-primary"><a href="/news" class="text-white">Noticias</a></button></div> -->
     </div>
 
-    <footer class="text-info font-weight-bold d-flex justify-content-center pt-4 pb-2">
-      <p>es footer</p>
-    </footer>
-
     
+
+    <%- include('partials/footer.ejs') %> 
     
   </body>
 </html>

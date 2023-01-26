@@ -27,14 +27,14 @@ router.get('/', function(req, res, next) {
     //     })
     // }
 
-    if ( req.query.page === '2' ){
-        connection.query('SELECT * FROM news LIMIT 5, 5', (error, result) => {
+    // if ( req.query.page === '2' ){
+    //     connection.query('SELECT * FROM news LIMIT 5, 5', (error, result) => {
 
-            res.render('news/news', {
-                news: result
-            });
-        })
-    }
+    //         res.render('news/news', {
+    //             news: result
+    //         });
+    //     })
+    // }
 
 });
 
